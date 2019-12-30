@@ -20,7 +20,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
 # Get non-open-source specific aspects
-$(call inherit-product-if-exists, vendor/asus/I01WD/I01WD-vendor.mk)
+$(call inherit-product-if-exists, vendor/asus/I001D/I001D-vendor.mk)
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2340

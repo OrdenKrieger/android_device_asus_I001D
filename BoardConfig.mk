@@ -16,7 +16,7 @@
 
 BOARD_VENDOR := asus
 
-DEVICE_PATH := device/asus/I01WD
+DEVICE_PATH := device/asus/I001D
 
 # Architecture
 TARGET_ARCH := arm64
@@ -46,7 +46,7 @@ BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 NEED_KERNEL_MODULE_SYSTEM := true
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_CLANG_COMPILE := true
-TARGET_KERNEL_CONFIG := vendor/I01WD_defconfig
+TARGET_KERNEL_CONFIG := vendor/I001D_defconfig
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
 TARGET_KERNEL_SOURCE := kernel/asus/sm8150
 
@@ -138,4 +138,4 @@ BOARD_AVB_ENABLE := true
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flag 2
 
 # Inherit from the proprietary version
--include vendor/asus/I01WD/BoardConfigVendor.mk
+-include vendor/asus/I001D/BoardConfigVendor.mk
